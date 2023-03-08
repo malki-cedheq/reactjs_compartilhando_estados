@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.pai {
+    border-left: 1px solid #000000 !important; 
+    border-color: #2196F3 !important;
+    color: #000 !important;
+    background-color: #f5b27c !important;
+    padding: 16px 16px;
+}
+
+.filho1 {
+    border-left: 1px solid #000000 !important; 
+    border-color: #2196F3 !important;
+    color: #000 !important;
+    background-color: #ddffff !important;
+    padding: 16px 16px;
+}
+
+.filho2 {
+    border-left: 6px solid #ccc !important; 
+    border-color: #2196F3 !important;
+    color: #000 !important;
+    background-color: #b8f697 !important;
+    padding: 16px 16px;
+}
