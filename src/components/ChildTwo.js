@@ -1,7 +1,7 @@
 import "../App.css";
 export default function ChildTwo({
   title,
-  children,
+  paragrafo,
   isActive,
   onShow,
   callback,
@@ -15,8 +15,8 @@ export default function ChildTwo({
         <h3>{title}</h3>
         {isActive ? (
           <>
-            <p>{children}</p>
-            <input type="text" id="campo1" onChange={handleChange}></input>
+            <p>{paragrafo}</p>
+            <input type="text" id="campo2" onChange={handleChange}></input>
           </>
         ) : (
           <button onClick={onShow}>Mostrar</button>

@@ -60,3 +60,11 @@
     background-color: #b8f697 !important;
     padding: 16px 16px;
 }
+
+.filho3 {
+    border-left: 6px solid #ccc !important; 
+    border-color: #2196F3 !important;
+    color: #000 !important;
+    background-color: #f697f3 !important;
+    padding: 16px 16px;
+}

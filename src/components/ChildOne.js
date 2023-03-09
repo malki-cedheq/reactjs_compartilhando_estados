@@ -1,13 +1,15 @@
 import "../App.css";
 export default function ChildOne({
-  title,
-  children,
+  title, //os estados passados pelo componente PAI
+  paragrafo,
   isActive,
   onShow,
   callback,
 }) {
+  //função que passa dados do componente filho para o componente pai
+  //atraves do estado callback
   const handleChange = (evento) => {
-    callback(evento.target.value);
+    callback(evento.target.value); //estado passado pelo componente FILHO
   };
 
   return (
@@ -16,7 +18,7 @@ export default function ChildOne({
         <h3>{title}</h3>
         {isActive ? (
           <>
-            <p>{children}</p>
+            <p>{paragrafo}</p>
             <input type="text" id="campo1" onChange={handleChange}></input>
           </>
         ) : (
